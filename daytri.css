@@ -1,0 +1,126 @@
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    align-items: center;
+}
+.judul{
+    margin-top: 20px;
+}
+.sub-judul{
+    margin: 10px;
+    font-family: "Jost", sans-serif;
+    font-weight: 50px;
+    font-style: italic;
+    color:white;
+    font-size: 10px;
+}
+.judul1{
+    margin:10px;
+    font-family: 'aespa', sans-serif;
+    font-weight: 50px;
+    font-style: normal;
+    color: white; 
+    font-size: 35px;   
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: black;
+}
+.wrapper .container .image{
+    display: flex;
+    width: 50px;
+}
+.image1{
+    font-family: "Jost", sans-serif;
+    filter: grayscale(50);
+    transition: all ease 0.2s;    
+}
+.image img {
+    width: 310px;
+    height: 175px;
+}
+.image1:hover{
+    filter: grayscale(0);
+}
+.image2{
+    font-family: "Jost", sans-serif;
+    filter: grayscale(100);
+    transition: all ease 0.2s;
+}
+.image2:hover{
+    filter: grayscale(0);
+}
+.image3{
+    font-family: "Jost", sans-serif;
+    filter: grayscale(100);
+    transition: all ease 0.2s;
+}
+.image3:hover{
+    filter: grayscale(0);
+}
+.image4{
+    font-family: "Jost", sans-serif;
+    filter: grayscale(100);
+    transition: all ease 0.2s;
+}
+.image4:hover{
+    filter: grayscale(0);
+}
+.wrapper .image{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 85px;
+}
+.wrapper .image image{
+    width: 200px;
+   
+}
+.teks1 {
+    text-align: center;
+    color: white;
+}
+.teks2 {
+    color: white;
+    text-align: center;
+}
+.teks3 {
+    color: white;
+    text-align: center;
+}
+.teks4 {
+    text-align: center;
+    color: white;
+}
+.paragraf{
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin: 5px;
+    margin-right: 5px;
+    display: flex;
+}
+.paragraf1, .paragraf2, .paragraf3, .paragraf4{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.hyperlink {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.hyperlink a {
+    font-size: 11px;
+    font-family: "Jost", sans-serif;
+    color: rgb(70, 61, 61);
+    text-decoration: none;
+    margin: 50px 10px;
+}
+.footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
